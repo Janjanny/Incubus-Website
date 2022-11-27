@@ -1,0 +1,29 @@
+@use "../custom" as *;
+
+
+//absolute center
+@mixin absoluteCenter {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+@mixin fontNormal {
+   font-family: 'monument_extendedregular';
+   font-weight: normal;
+}
+
+@mixin fontBold {
+   font-family: 'monument_extendedultrabold';
+   
+}
+
+@mixin button {
+   font-size: 1.2rem;
+   text-transform: uppercase;
+}
+
+@mixin gradient {
+   background: linear-gradient(to right,$primary, $secondary);
+}

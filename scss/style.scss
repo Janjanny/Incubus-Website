@@ -1,0 +1,38 @@
+//use bootstrap as a module
+@use "custom";
+
+@use "../scss/components/mixins";
+
+//import components here
+
+
+
+//import sections here
+@use "./sections/navbar";
+@use "./sections/home";
+
+
+
+//font face
+@font-face {
+   font-family: 'monument_extendedregular';
+   src: url('/assets/fonts/monumentextended-regular-webfont.woff2') format('woff2'),
+        url('/assets/fonts/monumentextended-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+
+
+
+@font-face {
+   font-family: 'monument_extendedultrabold';
+   src: url('/assets/fonts/monumentextended-ultrabold-webfont.woff2') format('woff2'),
+        url('/assets/fonts/monumentextended-ultrabold-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+

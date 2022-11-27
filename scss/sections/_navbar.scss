@@ -1,0 +1,36 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.navbar {
+   @include fontNormal;
+   background-color: $dark;
+   
+   .navbar-nav {
+
+      li {
+         margin-left: 10px;
+
+         a {
+            color: $white;
+         }
+
+         &:hover {
+            a {
+               color: $gray-500;
+            }
+         }
+      }
+      
+      
+   }
+
+   .logo {
+      color: $primary;
+      width: 4rem;
+      
+      img {
+         width: 100%;
+      }
+   }
+   
+}
