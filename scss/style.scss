@@ -11,7 +11,7 @@
 @use "./sections/navbar";
 @use "./sections/home";
 @use "./sections/shop";
-
+@use "./sections/about";
 
 
 //font face
@@ -37,3 +37,7 @@
 }
 
 
+* {
+   padding: 0;
+   margin: 0;
+}

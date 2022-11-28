@@ -10911,8 +10911,11 @@ textarea.form-control-lg {
 }
 
 .shop {
-  padding: 10rem 0 5rem 0;
+  padding: 10rem 0 0 0;
   overflow: hidden;
+  font-family: "monument_extendedregular";
+  font-weight: normal;
+  margin-bottom: 0;
 }
 .shop .button-div {
   display: grid;
@@ -11040,6 +11043,10 @@ textarea.form-control-lg {
     padding: 1.8rem;
   }
 }
+.shop .lead-text {
+  margin-top: 10rem;
+  opacity: 0.5;
+}
 
 .section-title {
   font-family: "monument_extendedultrabold";
@@ -11062,6 +11069,11 @@ textarea.form-control-lg {
   margin: 0 auto 5rem auto;
 }
 
+.about {
+  height: 100vh;
+  background-color: #1E1E1E;
+}
+
 @font-face {
   font-family: "monument_extendedregular";
   src: url("/assets/fonts/monumentextended-regular-webfont.woff2") format("woff2"), url("/assets/fonts/monumentextended-regular-webfont.woff") format("woff");
@@ -11073,6 +11085,10 @@ textarea.form-control-lg {
   src: url("/assets/fonts/monumentextended-ultrabold-webfont.woff2") format("woff2"), url("/assets/fonts/monumentextended-ultrabold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
