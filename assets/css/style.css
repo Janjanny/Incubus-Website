@@ -10857,7 +10857,6 @@ textarea.form-control-lg {
   }
 }
 .home .row .shop-btn {
-  font-size: 1.2rem;
   text-transform: uppercase;
   padding: 3px 16px;
   margin-bottom: 5rem;
@@ -10921,7 +10920,6 @@ textarea.form-control-lg {
   margin-bottom: 1rem;
 }
 .shop .button-div button {
-  font-size: 1.2rem;
   text-transform: uppercase;
   padding: 3px 16px;
   font-family: "monument_extendedregular";
@@ -10940,11 +10938,19 @@ textarea.form-control-lg {
   border: 2px solid #1E1E1E;
   color: #EBECE8;
 }
+@media (max-width: 575.98px) {
+  .shop .button-div {
+    grid-template-columns: auto auto auto;
+  }
+  .shop .button-div button {
+    font-size: 0.7rem;
+  }
+}
 .shop .card {
   width: 100%;
   border: 3px solid #1E1E1E;
   box-shadow: 8px 8px 10px rgba(30, 30, 30, 0.4);
-  padding: 1.8rem;
+  padding: 1rem;
   margin: 0 auto;
   font-family: "monument_extendedregular";
   font-weight: normal;
@@ -10959,7 +10965,7 @@ textarea.form-control-lg {
   font-family: "monument_extendedultrabold";
   text-transform: uppercase;
   font-size: 1.9rem;
-  width: 60%;
+  width: 70%;
 }
 .shop .card .card-body .top-text .status-text {
   text-transform: uppercase;
@@ -10992,6 +10998,47 @@ textarea.form-control-lg {
   background-color: #EBECE8;
   color: #1E1E1E;
   transition: all 0.3s ease;
+}
+@media (max-width: 575.98px) {
+  .shop .card .card-body .bottom-text .prvw-btn {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .shop .card .card-body .top-text .card-title {
+    font-size: 1.5rem;
+  }
+  .shop .card .card-body .top-text .status-text {
+    font-size: 0.9rem;
+  }
+  .shop .card .card-body .card-text {
+    font-size: 0.8rem;
+  }
+  .shop .card .card-body .bottom-text .price-text {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .shop .card .card-body {
+    padding: 1rem 0 0 0;
+  }
+  .shop .card .card-body .top-text .card-title {
+    font-size: 1.3rem;
+  }
+  .shop .card .card-body .top-text .status-text {
+    font-size: 0.7rem;
+  }
+  .shop .card .card-body .card-text {
+    font-size: 0.7rem;
+  }
+  .shop .card .card-body .bottom-text .price-text {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .shop .card {
+    padding: 1.8rem;
+  }
 }
 
 .section-title {
