@@ -10859,6 +10859,7 @@ textarea.form-control-lg {
 .home .row .shop-btn {
   font-size: 1.2rem;
   text-transform: uppercase;
+  padding: 3px 16px;
   margin-bottom: 5rem;
 }
 .home .row .shop-btn:hover {
@@ -10893,6 +10894,7 @@ textarea.form-control-lg {
   background: linear-gradient(to right, #1E1E1E 37.29%, #6D3C86 100%);
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.482);
 }
 .home .home-bar p {
   text-transform: uppercase;
@@ -10907,6 +10909,110 @@ textarea.form-control-lg {
   .home .home-bar {
     font-size: 0.55rem;
   }
+}
+
+.shop {
+  padding: 10rem 0 5rem 0;
+  overflow: hidden;
+}
+.shop .button-div {
+  display: grid;
+  grid-template-columns: 13rem 10rem 6rem;
+  margin-bottom: 1rem;
+}
+.shop .button-div button {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 3px 16px;
+  font-family: "monument_extendedregular";
+  font-weight: normal;
+  background-color: #EBECE8;
+  border: 2px solid #1E1E1E;
+}
+.shop .button-div button:hover {
+  background-color: #1E1E1E;
+  border: 2px solid #1E1E1E;
+  color: #EBECE8;
+  transition: all 0.5s ease;
+}
+.shop .button-div .active {
+  background-color: #1E1E1E;
+  border: 2px solid #1E1E1E;
+  color: #EBECE8;
+}
+.shop .card {
+  width: 100%;
+  border: 3px solid #1E1E1E;
+  box-shadow: 8px 8px 10px rgba(30, 30, 30, 0.4);
+  padding: 1.8rem;
+  margin: 0 auto;
+  font-family: "monument_extendedregular";
+  font-weight: normal;
+  background-color: rgb(248, 248, 248);
+}
+.shop .card .card-body .top-text {
+  cursor: default;
+  display: flex;
+  justify-content: space-between;
+}
+.shop .card .card-body .top-text .card-title {
+  font-family: "monument_extendedultrabold";
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  width: 60%;
+}
+.shop .card .card-body .top-text .status-text {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.shop .card .card-body .card-text {
+  font-size: 0.9rem;
+  cursor: default;
+}
+.shop .card .card-body .bottom-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  cursor: default;
+}
+.shop .card .card-body .bottom-text .price-text {
+  font-family: "monument_extendedultrabold";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.shop .card .card-body .bottom-text .prvw-btn {
+  font-family: "monument_extendedultrabold";
+  color: #EBECE8;
+  background-color: #1E1E1E;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  border: 2px solid #1E1E1E;
+}
+.shop .card .card-body .bottom-text .prvw-btn:hover {
+  background-color: #EBECE8;
+  color: #1E1E1E;
+  transition: all 0.3s ease;
+}
+
+.section-title {
+  font-family: "monument_extendedultrabold";
+  text-align: center;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.line-short {
+  background: linear-gradient(to right, #CC232D, #6D3C86);
+  width: 45%;
+  height: 5px;
+  margin: 0 auto 8rem auto;
+}
+
+.line-long {
+  background: linear-gradient(to right, #CC232D, #6D3C86);
+  width: 100%;
+  height: 5px;
+  margin: 0 auto 5rem auto;
 }
 
 @font-face {

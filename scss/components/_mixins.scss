@@ -22,6 +22,7 @@
 @mixin button {
    font-size: 1.2rem;
    text-transform: uppercase;
+   padding: 3px 16px;
 }
 
 @mixin gradient {
