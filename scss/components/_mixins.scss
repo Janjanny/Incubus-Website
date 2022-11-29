@@ -10,12 +10,17 @@
 }
 
 @mixin fontNormal {
-   font-family: 'monument_extendedregular';
+   font-family: 'Monument Extended';
    font-weight: normal;
+   font-style: normal;
+   font-display: swap;
 }
 
 @mixin fontBold {
-   font-family: 'monument_extendedultrabold';
+   font-family: 'Monument Extended';
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
    
 }
 

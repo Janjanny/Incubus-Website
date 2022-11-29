@@ -10770,8 +10770,10 @@ textarea.form-control-lg {
   }
 }
 .navbar {
-  font-family: "monument_extendedregular";
+  font-family: "Monument Extended";
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   background-color: #1E1E1E;
 }
 .navbar .navbar-nav li {
@@ -10798,8 +10800,10 @@ textarea.form-control-lg {
   width: 100%;
   height: 100%;
   padding: 4rem 0 0 0;
-  font-family: "monument_extendedregular";
+  font-family: "Monument Extended";
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   position: relative;
 }
 .home .row {
@@ -10831,7 +10835,10 @@ textarea.form-control-lg {
   }
 }
 .home .row .title {
-  font-family: "monument_extendedultrabold";
+  font-family: "Monument Extended";
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
   text-transform: uppercase;
   margin-bottom: 3rem;
 }
@@ -10913,8 +10920,10 @@ textarea.form-control-lg {
 .shop {
   padding: 10rem 0 0 0;
   overflow: hidden;
-  font-family: "monument_extendedregular";
+  font-family: "Monument Extended";
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   margin-bottom: 0;
 }
 .shop .button-div {
@@ -10925,8 +10934,10 @@ textarea.form-control-lg {
 .shop .button-div button {
   text-transform: uppercase;
   padding: 3px 16px;
-  font-family: "monument_extendedregular";
+  font-family: "Monument Extended";
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   background-color: #EBECE8;
   border: 2px solid #1E1E1E;
 }
@@ -10955,8 +10966,10 @@ textarea.form-control-lg {
   box-shadow: 8px 8px 10px rgba(30, 30, 30, 0.4);
   padding: 1rem;
   margin: 0 auto;
-  font-family: "monument_extendedregular";
+  font-family: "Monument Extended";
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   background-color: rgb(248, 248, 248);
 }
 .shop .card .card-body .top-text {
@@ -10965,7 +10978,10 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 .shop .card .card-body .top-text .card-title {
-  font-family: "monument_extendedultrabold";
+  font-family: "Monument Extended";
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
   text-transform: uppercase;
   font-size: 1.9rem;
   width: 70%;
@@ -10985,12 +11001,18 @@ textarea.form-control-lg {
   cursor: default;
 }
 .shop .card .card-body .bottom-text .price-text {
-  font-family: "monument_extendedultrabold";
+  font-family: "Monument Extended";
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
   font-size: 1.5rem;
   text-transform: uppercase;
 }
 .shop .card .card-body .bottom-text .prvw-btn {
-  font-family: "monument_extendedultrabold";
+  font-family: "Monument Extended";
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
   color: #EBECE8;
   background-color: #1E1E1E;
   text-transform: uppercase;
@@ -11049,7 +11071,10 @@ textarea.form-control-lg {
 }
 
 .section-title {
-  font-family: "monument_extendedultrabold";
+  font-family: "Monument Extended";
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
   text-align: center;
   text-transform: uppercase;
   cursor: default;
@@ -11075,16 +11100,20 @@ textarea.form-control-lg {
 }
 
 @font-face {
-  font-family: "monument_extendedregular";
-  src: url("/assets/fonts/monumentextended-regular-webfont.woff") format("woff");
-  font-weight: normal;
+  font-family: "Monument Extended";
+  src: url("/fonts/MonumentExtended-Ultrabold.eot");
+  src: url("MonumentExtended-Ultrabold.eot?#iefix") format("embedded-opentype"), url("/fonts/MonumentExtended-Ultrabold.woff2") format("woff2"), url("/fonts/MonumentExtended-Ultrabold.woff") format("woff"), url("/fonts/MonumentExtended-Ultrabold.woff") format("truetype");
+  font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: "monument_extendedultrabold";
-  src: url("/assets/fonts/monumentextended-ultrabold-webfont.woff") format("woff");
+  font-family: "Monument Extended";
+  src: url("/fonts/MonumentExtended-Regular.eot");
+  src: url("MonumentExtended-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/MonumentExtended-Regular.woff2") format("woff2"), url("/fonts/MonumentExtended-Regular.woff") format("woff"), url("/fonts/MonumentExtended-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 * {
   padding: 0;
