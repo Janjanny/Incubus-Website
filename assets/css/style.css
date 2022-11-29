@@ -10769,6 +10769,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "Monument Extended";
+  src: url("/fonts/MonumentExtended-Ultrabold.eot");
+  src: url("MonumentExtended-Ultrabold.eot?#iefix") format("embedded-opentype"), url("/fonts/MonumentExtended-Ultrabold.woff2") format("woff2"), url("/fonts/MonumentExtended-Ultrabold.woff") format("woff"), url("/fonts/MonumentExtended-Ultrabold.woff") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Monument Extended";
+  src: url("/fonts/MonumentExtended-Regular.eot");
+  src: url("MonumentExtended-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/MonumentExtended-Regular.woff2") format("woff2"), url("/fonts/MonumentExtended-Regular.woff") format("woff"), url("/fonts/MonumentExtended-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 .navbar {
   font-family: "Monument Extended";
   font-weight: normal;
@@ -11099,22 +11115,6 @@ textarea.form-control-lg {
   background-color: #1E1E1E;
 }
 
-@font-face {
-  font-family: "Monument Extended";
-  src: url("/fonts/MonumentExtended-Ultrabold.eot");
-  src: url("MonumentExtended-Ultrabold.eot?#iefix") format("embedded-opentype"), url("/fonts/MonumentExtended-Ultrabold.woff2") format("woff2"), url("/fonts/MonumentExtended-Ultrabold.woff") format("woff"), url("/fonts/MonumentExtended-Ultrabold.woff") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Monument Extended";
-  src: url("/fonts/MonumentExtended-Regular.eot");
-  src: url("MonumentExtended-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/MonumentExtended-Regular.woff2") format("woff2"), url("/fonts/MonumentExtended-Regular.woff") format("woff"), url("/fonts/MonumentExtended-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 * {
   padding: 0;
   margin: 0;
