@@ -2,10 +2,11 @@
 @use "../components/mixins" as *;
 
 .home {
-   background-image: url("./assets/images/designs/home/home-bg.png");
+   background-image: url("/assets/images/home-bg.png");
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
+   background-color: $dark;
    
    color: $white;
    width: 100%;
