@@ -10829,7 +10829,7 @@ textarea.form-control-lg {
 }
 
 .home {
-  background: url("assets/images/designs/home/background.jpg") no-repeat center center;
+  background: url("../background.jpg") no-repeat center center;
   background-size: cover;
   color: #EBECE8;
   width: 100%;
