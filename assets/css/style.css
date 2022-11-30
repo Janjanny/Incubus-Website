@@ -11094,10 +11094,15 @@ textarea.form-control-lg {
     font-size: 0.7rem;
   }
   .shop .card .card-body .card-text {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .shop .card .card-body .bottom-text .price-text {
     font-size: 1rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .shop .card {
+    border: 2px solid #1E1E1E;
   }
 }
 @media (min-width: 768px) {
@@ -11143,8 +11148,62 @@ textarea.form-control-lg {
 }
 
 .about {
-  height: 100vh;
   background-color: #1E1E1E;
+  padding: 10rem 0;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  color: #EBECE8;
+}
+.about .img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .img-div .picture-frame {
+  background-color: #CC232D;
+  width: 25rem;
+  height: 28rem;
+  border-radius: 1rem;
+}
+.about .text-div .name-text {
+  font-family: "Rifton Norm";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  margin-bottom: 2rem;
+}
+.about .text-div .about-txt {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.about .text-div .msg-btn {
+  font-size: 1.5rem;
+  font-family: "Rifton Norm";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  margin-bottom: 2rem;
+}
+.about .text-div .msg-btn span {
+  padding-left: 0.5rem;
+}
+.about .text-div .msg-btn:hover {
+  background-color: #6D3C86;
+  border-color: #6D3C86;
+}
+.about .text-div .socials {
+  font-size: 2.5rem;
+  cursor: default;
+}
+.about .text-div .socials a {
+  color: #EBECE8;
+  padding-right: 0.5rem;
+}
+.about .text-div .socials a:hover i {
+  transition: all 0.3s ease-in-out;
+  color: #CC232D;
 }
 
 * {

@@ -3,6 +3,65 @@
 
 
 .about {
-   height: 100vh;
    background-color: $dark;
+   padding: 10rem 0;
+   @include fontNormal;
+   color: $white;
+
+   .img-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .picture-frame {
+         background-color: $primary;
+         width: 25rem;
+         height: 28rem;
+         border-radius: 1rem;
+
+      }
+   }
+
+   .text-div {
+      .name-text {
+         @include fontBold;
+         margin-bottom: 2rem;
+      }
+      .about-txt {
+         font-size: 1.3rem;
+         margin-bottom: 2rem;
+
+      }
+
+      .msg-btn {
+         font-size: 1.5rem;
+         @include fontBold;
+         margin-bottom: 2rem;
+
+         span {
+            padding-left: .5rem;
+         }
+
+         &:hover {
+            background-color: $secondary;
+            border-color: $secondary;
+         }
+      }
+
+      .socials {
+         font-size: 2.5rem;
+         cursor: default;
+         a {
+            color: $white;
+            padding-right: .5rem;
+
+
+
+            &:hover i {
+               transition: all .3s ease-in-out;
+               color: $primary;
+            }
+         }
+         
+      }
+   }
 }

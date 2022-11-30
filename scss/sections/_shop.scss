@@ -158,7 +158,7 @@
             }
 
             .card-text {
-               font-size: .7rem;
+               font-size: .6rem;
             }
 
             .bottom-text {
@@ -167,6 +167,12 @@
                }
             }
          }
+      }
+   }
+   @include media-breakpoint-down(sm) {
+      .card {
+         border: 2px solid $dark;
+
       }
    }
 
