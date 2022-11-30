@@ -1,5 +1,5 @@
 @font-face {
-   font-family: 'Rifton Norm';
+    font-family: 'Rifton Norm';
    src: url('/fonts/RiftonNorm.woff2') format('woff2'),
        url('/fonts/RiftonNorm.woff') format('woff');
    font-weight: normal;
@@ -7,39 +7,13 @@
    font-display: swap;
 }
 
-@font-face {
-   font-family: 'Rifton Caps';
-   src: url('/fonts/RiftonCaps.woff2') format('woff2'),
-       url('/fonts/RiftonCaps.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
-   font-display: swap;
-}
 
 @font-face {
-   font-family: 'Rifton';
-   src: url('/fonts/RiftonItalic.woff2') format('woff2'),
-       url('/fonts/RiftonItalic.woff') format('woff');
-   font-weight: normal;
-   font-style: italic;
-   font-display: swap;
-}
-
-@font-face {
-   font-family: 'Rifton Caps';
-   src: url('/fonts/RiftonCapsItalic.woff2') format('woff2'),
-       url('/fonts/RiftonCapsItalic.woff') format('woff');
-   font-weight: normal;
-   font-style: italic;
-   font-display: swap;
-}
-
-@font-face {
-   font-family: 'Rifton Backslant';
-   src: url('/fonts/RiftonBackslant.woff2') format('woff2'),
-       url('/fonts/RiftonBackslant.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
-   font-display: swap;
+    font-family: 'Helvetica Neue';
+    src: url('/fonts/HelveticaNeue-MediumExt.woff2') format('woff2'),
+        url('/fonts/HelveticaNeue-MediumExt.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 

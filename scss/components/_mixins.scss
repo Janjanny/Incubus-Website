@@ -10,14 +10,14 @@
 }
 
 @mixin fontNormal {
-   font-family: 'Rifton Norm';
-   font-weight: normal;
+   font-family: 'Helvetica Neue';
+   font-weight: 500;
    font-style: normal;
    font-display: swap;
 }
 
 @mixin fontBold {
-   font-family: 'Rifton Caps';
+   font-family: 'Rifton Norm';
    font-weight: normal;
    font-style: normal;
    font-display: swap;
@@ -26,6 +26,10 @@
 
 @mixin button {
    text-transform: uppercase;
+   font-family: 'Rifton Norm';
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
    padding: 3px 16px;
 }
 

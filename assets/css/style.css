@@ -10777,30 +10777,9 @@ textarea.form-control-lg {
   font-display: swap;
 }
 @font-face {
-  font-family: "Rifton Caps";
-  src: url("/fonts/RiftonCaps.woff2") format("woff2"), url("/fonts/RiftonCaps.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Rifton";
-  src: url("/fonts/RiftonItalic.woff2") format("woff2"), url("/fonts/RiftonItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Rifton Caps";
-  src: url("/fonts/RiftonCapsItalic.woff2") format("woff2"), url("/fonts/RiftonCapsItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Rifton Backslant";
-  src: url("/fonts/RiftonBackslant.woff2") format("woff2"), url("/fonts/RiftonBackslant.woff") format("woff");
-  font-weight: normal;
+  font-family: "Helvetica Neue";
+  src: url("/fonts/HelveticaNeue-MediumExt.woff2") format("woff2"), url("/fonts/HelveticaNeue-MediumExt.woff") format("woff");
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
@@ -10829,7 +10808,7 @@ textarea.form-control-lg {
 }
 
 .home {
-  background-image: url("/assets/images/home-bg.png");
+  background-image: url("/assets/images/home-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -10838,8 +10817,8 @@ textarea.form-control-lg {
   width: 100%;
   height: 100%;
   padding: 4rem 0 0 0;
-  font-family: "Rifton Norm";
-  font-weight: normal;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
   position: relative;
@@ -10853,6 +10832,10 @@ textarea.form-control-lg {
   display: flex;
   cursor: default;
   margin-bottom: 5rem;
+  font-family: "Rifton Norm";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 .home .row .strtwr-txt .strtwr {
   border: 2px solid #EBECE8;
@@ -10873,12 +10856,12 @@ textarea.form-control-lg {
   }
 }
 .home .row .title {
-  font-family: "Rifton Caps";
+  font-family: "Rifton Norm";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
   text-transform: uppercase;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 @media (max-width: 991.98px) {
   .home .row .title {
@@ -10891,7 +10874,8 @@ textarea.form-control-lg {
   }
 }
 .home .row .description {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 @media (max-width: 575.98px) {
   .home .row .title {
@@ -10903,8 +10887,13 @@ textarea.form-control-lg {
 }
 .home .row .shop-btn {
   text-transform: uppercase;
+  font-family: "Rifton Norm";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   padding: 3px 16px;
   margin-bottom: 5rem;
+  font-size: 1.3rem;
 }
 .home .row .shop-btn:hover {
   background-color: #6D3C86;
@@ -10934,6 +10923,10 @@ textarea.form-control-lg {
   }
 }
 .home .home-bar {
+  font-family: "Rifton Norm";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   display: flex;
   background: linear-gradient(to right, #1E1E1E 37.29%, #6D3C86 100%);
   justify-content: space-between;
@@ -10958,8 +10951,8 @@ textarea.form-control-lg {
 .shop {
   padding: 10rem 0 0 0;
   overflow: hidden;
-  font-family: "Rifton Norm";
-  font-weight: normal;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
   margin-bottom: 0;
@@ -10971,6 +10964,10 @@ textarea.form-control-lg {
 }
 .shop .button-div button {
   text-transform: uppercase;
+  font-family: "Rifton Norm";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
   padding: 3px 16px;
   font-family: "Rifton Norm";
   font-weight: normal;
@@ -11004,8 +11001,8 @@ textarea.form-control-lg {
   box-shadow: 8px 8px 10px rgba(30, 30, 30, 0.4);
   padding: 1rem;
   margin: 0 auto;
-  font-family: "Rifton Norm";
-  font-weight: normal;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
   background-color: rgb(248, 248, 248);
@@ -11016,7 +11013,7 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 .shop .card .card-body .top-text .card-title {
-  font-family: "Rifton Caps";
+  font-family: "Rifton Norm";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -11027,10 +11024,15 @@ textarea.form-control-lg {
 .shop .card .card-body .top-text .status-text {
   text-transform: uppercase;
   font-size: 1.2rem;
+  font-family: "Rifton Norm";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 .shop .card .card-body .card-text {
   font-size: 0.9rem;
   cursor: default;
+  text-transform: uppercase;
 }
 .shop .card .card-body .bottom-text {
   display: flex;
@@ -11039,7 +11041,7 @@ textarea.form-control-lg {
   cursor: default;
 }
 .shop .card .card-body .bottom-text .price-text {
-  font-family: "Rifton Caps";
+  font-family: "Rifton Norm";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -11047,7 +11049,7 @@ textarea.form-control-lg {
   text-transform: uppercase;
 }
 .shop .card .card-body .bottom-text .prvw-btn {
-  font-family: "Rifton Caps";
+  font-family: "Rifton Norm";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -11107,9 +11109,17 @@ textarea.form-control-lg {
   margin-top: 10rem;
   opacity: 0.5;
 }
+.shop .bottom-msg {
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .shop .bottom-msg {
+    font-size: 1.3rem;
+  }
+}
 
 .section-title {
-  font-family: "Rifton Caps";
+  font-family: "Rifton Norm";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -11140,7 +11150,6 @@ textarea.form-control-lg {
 * {
   padding: 0;
   margin: 0;
-  font-family: "Rifton Norm";
 }
 
 /*# sourceMappingURL=style.css.map */

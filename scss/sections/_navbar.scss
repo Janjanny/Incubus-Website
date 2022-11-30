@@ -2,7 +2,7 @@
 @use "../components/mixins" as *;
 
 .navbar {
-   @include fontNormal;
+   @include fontBold;
    background-color: $dark;
    
    .navbar-nav {
