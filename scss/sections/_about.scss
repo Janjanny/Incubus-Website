@@ -32,6 +32,12 @@
 
       }
 
+      @include media-breakpoint-down(md) {
+         .about-txt{
+            font-size: 1rem;
+         }
+      }
+
       .msg-btn {
          font-size: 1.5rem;
          @include fontBold;
@@ -46,6 +52,8 @@
             border-color: $secondary;
          }
       }
+
+      
 
       .socials {
          font-size: 2.5rem;
@@ -62,6 +70,22 @@
             }
          }
          
+      }
+
+      @include media-breakpoint-down(md) {
+         .msg-btn {
+            font-size: 1.3rem;
+         }
+
+         .socials {
+            font-size: 2rem;
+         }
+      }
+   }
+
+   @include media-breakpoint-down(lg) {
+      .text-div {
+         text-align: center;
       }
    }
 }

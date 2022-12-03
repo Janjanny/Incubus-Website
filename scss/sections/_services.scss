@@ -1,0 +1,64 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+@use "../components/fontf-face" as *;
+
+
+.services {
+   padding: 10rem 0;
+   background-color: $dark;
+   @include fontNormal;
+   color: $white;
+
+   .skills-row {
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+
+      .skills-col {
+         text-align: center;
+         padding: 1rem;
+         margin: auto;
+
+         .icon {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+         }
+         
+         .skill-title {
+            @include fontBold;
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+         }
+
+         .skill-description {
+            font-size: 1.2rem;
+         }
+      }
+
+      @include media-breakpoint-down(sm) {
+         .skills-col {
+            .icon {
+               font-size: 2.8rem;
+            }
+      
+            .skill-title {
+               font-size: 1.5rem;
+            }
+      
+            .skill-description {
+               font-size: 1rem;
+            }
+         }
+      }
+
+   }
+}
+
+@include media-breakpoint-down(sm) {
+   .services {
+      padding: 10rem 2rem;
+
+      
+
+   }
+}

@@ -11178,6 +11178,11 @@ textarea.form-control-lg {
   font-size: 1.3rem;
   margin-bottom: 2rem;
 }
+@media (max-width: 767.98px) {
+  .about .text-div .about-txt {
+    font-size: 1rem;
+  }
+}
 .about .text-div .msg-btn {
   font-size: 1.5rem;
   font-family: "Rifton Norm";
@@ -11205,7 +11210,71 @@ textarea.form-control-lg {
   transition: all 0.3s ease-in-out;
   color: #CC232D;
 }
+@media (max-width: 767.98px) {
+  .about .text-div .msg-btn {
+    font-size: 1.3rem;
+  }
+  .about .text-div .socials {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .about .text-div {
+    text-align: center;
+  }
+}
 
+.services {
+  padding: 10rem 0;
+  background-color: #1E1E1E;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  color: #EBECE8;
+}
+.services .skills-row {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.services .skills-row .skills-col {
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+}
+.services .skills-row .skills-col .icon {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.services .skills-row .skills-col .skill-title {
+  font-family: "Rifton Norm";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+.services .skills-row .skills-col .skill-description {
+  font-size: 1.2rem;
+}
+@media (max-width: 575.98px) {
+  .services .skills-row .skills-col .icon {
+    font-size: 2.8rem;
+  }
+  .services .skills-row .skills-col .skill-title {
+    font-size: 1.5rem;
+  }
+  .services .skills-row .skills-col .skill-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .services {
+    padding: 10rem 2rem;
+  }
+}
 * {
   padding: 0;
   margin: 0;
