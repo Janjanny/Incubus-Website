@@ -28,5 +28,11 @@ $secondary:     $purple ;
 $border-radius: none;
 
 
+//input
+$input-border-color:                    $dark;
+$input-border-width: 2px;
+
+
+
 //import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

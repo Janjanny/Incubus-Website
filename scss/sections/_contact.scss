@@ -1,0 +1,33 @@
+@use "../custom" as *;
+@use "../components/fontf-face" as *;
+@use "../components/mixins" as *;
+
+.contact {
+   padding: 10rem 0;
+   background-color: $dark;
+   @include fontNormal;
+   color: $white;
+
+   .contact-text {
+      text-align: center;
+      font-size: 1.3rem;
+   }
+   
+   .text-div {
+      color: $dark;
+      background-color: $white;
+      padding: 3rem;
+      .form-title {
+         @include fontBold;
+
+         .input-label {
+            @include fontBold;
+         }
+
+      }
+   }
+
+
+
+
+}
