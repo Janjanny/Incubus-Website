@@ -11305,6 +11305,111 @@ textarea.form-control-lg {
   font-style: normal;
   font-display: swap;
 }
+.contact .text-div .sbmt-btn {
+  font-family: "Rifton Norm";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-size: 1.3rem;
+}
+
+.footer {
+  padding: 5rem 0 2rem 0;
+  background-color: rgb(14, 14, 14);
+  color: #EBECE8;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.footer .left-part .head-title {
+  font-family: "Rifton Norm";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  text-transform: uppercase;
+}
+.footer .links ul {
+  padding: 0;
+  margin: 0;
+}
+.footer .links ul li {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+.footer .links ul li a {
+  text-decoration: none;
+  color: #EBECE8;
+}
+.footer .links ul li a:hover {
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
+.footer .links .link-title {
+  font-family: "Rifton Norm";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  text-transform: uppercase;
+}
+.footer .right-part {
+  text-align: right;
+}
+.footer .right-part .logo-div {
+  margin-left: auto;
+  width: 50%;
+  height: 50%;
+}
+.footer .right-part .logo-div img {
+  width: 100%;
+}
+.footer .right-part .contact-div {
+  text-align: left;
+  width: 50%;
+  margin-left: auto;
+  margin-top: 2.5rem;
+}
+.footer .right-part .contact-div ul {
+  padding: 0;
+  margin: 0;
+}
+.footer .right-part .contact-div ul li {
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  list-style-type: none;
+  font-size: 1rem;
+}
+.footer .right-part .contact-div ul li a {
+  text-decoration: none;
+  color: #EBECE8;
+}
+.footer .right-part .contact-div ul li a span {
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.footer .right-part .contact-div ul li a:hover {
+  text-decoration: underline;
+  transition: all 0.5s ease;
+}
+@media (max-width: 991.98px) {
+  .footer .right-part .logo-div {
+    width: 100%;
+  }
+  .footer .right-part .contact-div {
+    width: 100%;
+  }
+}
+.footer .notice {
+  text-align: center;
+  margin-top: 5rem;
+  cursor: default;
+}
 
 * {
   padding: 0;

@@ -25,7 +25,14 @@
          }
 
       }
+
+      .sbmt-btn {
+         @include fontBold;
+         font-size: 1.3rem;
+      }
    }
+
+
 
 
 
