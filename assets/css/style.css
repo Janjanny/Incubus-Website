@@ -11329,11 +11329,11 @@ textarea.form-control-lg {
   font-display: swap;
   text-transform: uppercase;
 }
-.footer .links ul {
+.footer .links-row ul {
   padding: 0;
   margin: 0;
 }
-.footer .links ul li {
+.footer .links-row ul li {
   font-family: "Helvetica Neue";
   font-weight: 500;
   font-style: normal;
@@ -11341,15 +11341,15 @@ textarea.form-control-lg {
   list-style-type: none;
   font-size: 1.2rem;
 }
-.footer .links ul li a {
+.footer .links-row ul li a {
   text-decoration: none;
   color: #EBECE8;
 }
-.footer .links ul li a:hover {
+.footer .links-row ul li a:hover {
   text-decoration: underline;
   transition: all 0.5s ease;
 }
-.footer .links .link-title {
+.footer .links-row .link-title {
   font-family: "Rifton Norm";
   font-weight: normal;
   font-style: normal;
@@ -11398,10 +11398,82 @@ textarea.form-control-lg {
   transition: all 0.5s ease;
 }
 @media (max-width: 991.98px) {
-  .footer .right-part .logo-div {
+  .footer .footer-details {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer .footer-details .logo-col {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .footer .footer-details .logo-col .logo-div {
     width: 100%;
   }
-  .footer .right-part .contact-div {
+  .footer .footer-details .contact-col {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .footer .footer-details .contact-col .contact-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer-details .contact-col .contact-div ul li {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer .links-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer .links-row .products {
+    width: 50%;
+  }
+  .footer .links-row .products ul li {
+    font-size: 1rem;
+  }
+  .footer .links-row .links {
+    width: 50%;
+  }
+  .footer .links-row .links ul li {
+    font-size: 1rem;
+  }
+  .footer .footer-details .contact-col .contact-div ul li {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer .links-row {
+    flex-direction: column;
+  }
+  .footer .links-row .link-title {
+    font-size: 1.8rem;
+  }
+  .footer .links-row .products {
+    width: 100%;
+    text-align: center;
+  }
+  .footer .links-row .products ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer .links-row .links {
+    margin-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .footer .links-row .links ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0.8rem;
+  }
+  .footer .footer-details {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .footer .footer-details .contact-col {
     width: 100%;
   }
 }
