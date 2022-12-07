@@ -11162,7 +11162,10 @@ textarea.form-control-lg {
   align-items: center;
 }
 .about .img-div .picture-frame {
-  background-color: #CC232D;
+  background-image: url("/assets/images/unnamed.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   width: 25rem;
   height: 28rem;
   border-radius: 1rem;
@@ -11287,6 +11290,12 @@ textarea.form-control-lg {
 .contact .contact-text {
   text-align: center;
   font-size: 1.3rem;
+}
+.contact .img-div {
+  background-image: url("/assets/images/inc-mock.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .contact .text-div {
   color: #1E1E1E;
